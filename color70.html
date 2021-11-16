@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>color70</title>
+    <style type="text/css">
+        .brand{
+            position: fixed;
+            background: #ffffff;
+            color:#ff0000;
+        }
+        #box{
+            width:200px;
+            height:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="brand">COLOR-70</div>
+    <input id="box" type="text"></input>
+    <script>
+        let box = document.getElementById('box');
+        box.oninput = function (e) {
+            document.body.style['background'] = box.value;
+        }
+    </script>
+</body>
+</html>
