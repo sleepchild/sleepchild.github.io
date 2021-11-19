@@ -1,0 +1,33 @@
+
+@media only screen and (min-width:600px){
+  #topbar{
+    font-size:2em;
+  }
+  .st5{
+    background-color:red;
+  }
+  .ml-20{
+    margin-left:1.5em;
+  }
+  #greet{
+    font-size:3.2em;
+  }
+}
+
+@media only screen and (max-height:600px){
+  #topbar{
+    font-size:1em;
+    height:2em;
+    padding-top:1px;
+    padding-bottom:4px;
+  }
+  #main{
+    margin-top:2em;
+  }
+  #greet{
+    font-size:1.8em;
+  }
+  #greet>.p1{
+    margin-top:2em;
+  }
+}
