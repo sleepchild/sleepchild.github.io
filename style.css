@@ -13,7 +13,6 @@ body{
 }
 
 #header{
-  background-images: url('img/bg2.jpg');
   background-position:center;
   background-size:cover;
   height:300px;
@@ -69,7 +68,7 @@ body{
 
 .button{
   text-decoration:none;
-  color:#115397;
+  color:#123;
   border:1px solid #123;
   border-radius:2px;
   padding:2px;
